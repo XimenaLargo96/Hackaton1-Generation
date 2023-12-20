@@ -10,29 +10,30 @@
     --light-pink: #d2a391;
     --beige: #e6d7b8;
 }
-h1{
+.title-page{
     font-family: 'roboto', sans-serif;
     text-align: center;
     background-color: var(--light-pink); 
-    font-size: 5rem;
+    font-size: 2rem;
     color: var(--light-purple);
     height: 10vh;
-    padding-top: 20px;
+    margin-bottom: 0;
 }
 nav{
     background-color: var(--dark-pink);
     color: var(--beige);
-
 }
-nav >ul{
+nav > ul{
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     list-style: none;
 }
 
-img .logo{
-    height: 20px;
-    width: 20px;
+.logo{
+    height: 13vh;
+    width: 10vw;
+    padding: 10px;
 }
 
 .carousel-inner{
