@@ -13,13 +13,26 @@
 h1{
     font-family: 'roboto', sans-serif;
     text-align: center;
-    background-color: #a04f62; 
+    background-color: var(--light-pink); 
     font-size: 5rem;
+    color: var(--light-purple);
+    height: 10vh;
+    padding-top: 20px;
+}
+nav{
+    background-color: var(--dark-pink);
+    color: var(--beige);
+
 }
 nav >ul{
     display: flex;
     justify-content: space-evenly;
     list-style: none;
+}
+
+img .logo{
+    height: 20px;
+    width: 20px;
 }
 
 .carousel-inner{
