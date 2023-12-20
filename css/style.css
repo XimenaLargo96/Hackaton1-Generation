@@ -10,6 +10,17 @@
     --light-pink: #d2a391;
     --beige: #e6d7b8;
 }
+h1{
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    background-color: #a04f62; 
+    font-size: 5rem;
+}
+nav >ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
 
 .carousel-inner{
 height: 60vh;
