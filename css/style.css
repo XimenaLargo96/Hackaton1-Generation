@@ -50,4 +50,28 @@ footer {
   bottom: 0;
   width: 100%;
 }
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 30vw;
+    padding: 1rem;
+    border: var(--dark-purple) 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10vh;
+}
 
+form label{
+    display: block;
+}
+
+.btn-submit-form{
+    width: 40%;
+    height: 40%;
+    margin: 10px;
+    background-color: var(--dark-pink);
+    color: var(--beige);
+    border-radius:5px ;
+    border: none;
+}
