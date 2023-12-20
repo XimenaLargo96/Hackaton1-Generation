@@ -21,3 +21,20 @@ nav >ul{
     justify-content: space-evenly;
     list-style: none;
 }
+
+.carousel-inner{
+height: 60vh;
+}
+.carousel-inner img {
+  width: 100vw;
+  height: 60vh;
+}
+
+footer {
+  background-color: var(--dark-pink);
+  padding: 1em 0;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+}
+
