@@ -10,3 +10,11 @@
     --light-pink: #d2a391;
     --beige: #e6d7b8;
 }
+
+.carousel-inner{
+height: 60vh;
+}
+.carousel-inner img {
+  width: 100vw;
+  height: 60vh;
+}
